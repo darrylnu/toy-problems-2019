@@ -15,4 +15,10 @@ public class CoderbyteEasyTests {
         assert(output.equals("want"));
     }
 
+    public void firstReverse() {
+        String input = "Hello World and Coders";
+        String output = CoderbyteEasy.firstReverse(input);
+        assert(output.equals("sredoC dna dlroW olleH"));
+    }
+
 }
