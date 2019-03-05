@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="bdc4a8d5-c953-4cef-9d6e-91e2fde5001e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/src/CoderbyteEasy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CoderbyteEasy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/CoderbyteEasyTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/CoderbyteEasyTests.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,10 +22,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/CoderbyteEasyTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
+            <state relative-caret-position="227">
               <caret line="20" column="56" selection-start-line="20" selection-start-column="56" selection-end-line="20" selection-end-column="56" />
             </state>
           </provider>
@@ -35,21 +34,21 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="4" column="41" lean-forward="true" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
+            <state relative-caret-position="207">
+              <caret line="7" column="41" lean-forward="true" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/CoderbyteEasy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="159">
-              <caret line="29" column="245" selection-start-line="29" selection-start-column="223" selection-end-line="29" selection-end-column="245" />
+            <state relative-caret-position="366">
+              <caret line="38" column="4" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2356#2357#0" expanded="true" />
-                <element signature="e#2672#2673#0" expanded="true" />
+                <element signature="e#2361#2362#0" expanded="true" />
+                <element signature="e#2677#2678#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -71,8 +70,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/Main.java" />
-        <option value="$PROJECT_DIR$/src/CoderbyteEasy.java" />
         <option value="$PROJECT_DIR$/test/CoderbyteEasyTests.java" />
+        <option value="$PROJECT_DIR$/src/CoderbyteEasy.java" />
       </list>
     </option>
   </component>
@@ -114,7 +113,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551759262668" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551759303497" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -189,7 +188,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1551569219868</updated>
-      <workItem from="1551569221157" duration="4897000" />
+      <workItem from="1551569221157" duration="5398000" />
     </task>
     <servers />
   </component>
@@ -206,9 +205,12 @@
     <history-entry file="CoderbyteEasyTests_testLongestWord - 2019.03.03 at 17h 53m 51s.xml">
       <configuration name="CoderbyteEasyTests.testLongestWord" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="CoderbyteEasyTests_firstReverse - 2019.03.04 at 22h 14m 26s.xml">
+      <configuration name="CoderbyteEasyTests.firstReverse" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4897000" />
+    <option name="totallyTimeSpent" value="5398000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
@@ -228,7 +230,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32769832" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32769832" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39921975" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -268,27 +270,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="41" lean-forward="true" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CoderbyteEasy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="29" column="245" selection-start-line="29" selection-start-column="223" selection-end-line="29" selection-end-column="245" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2356#2357#0" expanded="true" />
-            <element signature="e#2672#2673#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="207">
+          <caret line="7" column="41" lean-forward="true" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/CoderbyteEasyTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
+        <state relative-caret-position="227">
           <caret line="20" column="56" selection-start-line="20" selection-start-column="56" selection-end-line="20" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CoderbyteEasy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="38" column="4" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2361#2362#0" expanded="true" />
+            <element signature="e#2677#2678#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
