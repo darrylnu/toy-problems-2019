@@ -36,11 +36,26 @@ public class CoderbyteEasy {
         }
         return sb.toString();
     }
-    
+
 
     /*Have the function LetterChanges(str) take the str parameter being passed and modify it using the following algorithm. Replace every letter in the string with the letter following it in the alphabet (ie. c becomes d, z becomes a). Then capitalize every vowel in this new string (a, e, i, o, u) and finally return this modified string.
      */
     static String letterChanges(String str) {
+        StringBuilder sb = new StringBuilder();
+        for(int i = 0; i < str.length(); i++) {
+            sb.append(getFollowingLetter("" + str.charAt(i)));
+        }
+        return sb.toString();
+    }
+
+    private static String getFollowingLetter(String str) {
+        String alphabetStr = "A b c d E f g h I j k l m n O p q r s t U v w x y z a";
+        String[] alphabetArray = alphabetStr.split(" ");
+        for(int i = 0; i < alphabetArray.length; i++) {
+            if (alphabetArray[i].equalsIgnoreCase(str)) {
+                return alphabetArray[i + 1];
+            }
+        }
         return str;
     }
 

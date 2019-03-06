@@ -21,4 +21,10 @@ public class CoderbyteEasyTests {
         assert(output.equals("sredoC dna dlroW olleH"));
     }
 
+    public void letterChanges() {
+        String input = "hello*3";
+        String output = CoderbyteEasy.letterChanges(input);
+        assert(output.equals("Ifmmp*3"));
+    }
+
 }
