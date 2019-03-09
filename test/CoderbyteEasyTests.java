@@ -27,4 +27,9 @@ public class CoderbyteEasyTests {
         assert(output.equals("Ifmmp*3"));
     }
 
+    public void simpleAdding() {
+        int input = 4;
+        int output = CoderbyteEasy.simpleAdding(input);
+        assert(output == 10);
+    }
 }
