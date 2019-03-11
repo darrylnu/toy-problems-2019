@@ -32,4 +32,10 @@ public class CoderbyteEasyTests {
         int output = CoderbyteEasy.simpleAdding(input);
         assert(output == 10);
     }
+
+    public void letterCapitalize() {
+        String input = "i like to go fishing.";
+        String output = CoderbyteEasy.letterCapitalize(input);
+        assert(output.equals("I Like To Go Fishing."));
+    }
 }
