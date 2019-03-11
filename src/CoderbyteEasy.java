@@ -1,5 +1,8 @@
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
+
+import static java.lang.Character.toUpperCase;
 
 public class CoderbyteEasy {
 
@@ -67,4 +70,35 @@ public class CoderbyteEasy {
         }
         return total;
     }
+
+    /*Have the function LetterCapitalize(str) take the str parameter being passed and capitalize the first letter of each word. Words will be separated by only one space.*/
+    static String letterCapitalize(String str) {
+        StringBuilder sb = new StringBuilder();
+        String[] strArray = str.split(" ");
+        for(int i = 0; i < strArray.length; i++) {
+            StringBuilder wordSb = new StringBuilder();
+            String firstLetter = Character.toString(toUpperCase(strArray[i].charAt(0)));
+            wordSb.append(firstLetter);
+            if(strArray[i].length() > 1) {
+                for(int j = 1; j < strArray[i].length(); j++) {
+                    wordSb.append(strArray[i].charAt(j));
+                }
+            }
+            sb.append(wordSb.toString());
+            if(!(i == strArray.length-1)) {
+                sb.append(" ");
+            }
+        }
+        return sb.toString();
+    }
+
+    /*Have the function SimpleSymbols(str) take the str parameter being passed and determine if it is an acceptable sequence by either returning the string true or false. The str parameter will be composed of + and = symbols with several letters between them (ie. ++d+===+c++==a) and for the string to be true each letter must be surrounded by a + symbol. So the string to the left would be false. The string will not be empty and will have at least one letter. */
+
+    /*Have the function CheckNums(num1,num2) take both parameters being passed and return the string true if num2 is greater than num1, otherwise return the string false. If the parameter values are equal to each other then return the string -1.
+     */
+
+    /*Have the function TimeConvert(num) take the num parameter being passed and return the number of hours and minutes the parameter converts to (ie. if num = 63 then the output should be 1:3). Separate the number of hours and minutes with a colon.
+     */
+
+    /*Have the function AlphabetSoup(str) take the str string parameter being passed and return the string with the letters in alphabetical order (ie. hello becomes ehllo). Assume numbers and punctuation symbols will not be included in the string. */
 }
