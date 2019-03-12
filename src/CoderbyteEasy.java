@@ -93,6 +93,21 @@ public class CoderbyteEasy {
     }
 
     /*Have the function SimpleSymbols(str) take the str parameter being passed and determine if it is an acceptable sequence by either returning the string true or false. The str parameter will be composed of + and = symbols with several letters between them (ie. ++d+===+c++==a) and for the string to be true each letter must be surrounded by a + symbol. So the string to the left would be false. The string will not be empty and will have at least one letter. */
+    static boolean simpleSymbols(String str) {
+        boolean valid = true;
+        String alphabet = "a b c d e f g h i j k l m n o p q r s t u v w x y z";
+        if(alphabet.contains(Character.toString(str.charAt(0))) || alphabet.contains(Character.toString(str.charAt(str.length()-1)))) {
+            return false;
+        }
+        for(int i =0; i < str.length(); i++) {
+            if(alphabet.contains(Character.toString(str.charAt(i)).toLowerCase())) {
+                if((str.charAt(i + 1) != '+') || (str.charAt(i - 1) != '+')) {
+                    valid = false;
+                }
+            }
+        }
+        return valid;
+    }
 
     /*Have the function CheckNums(num1,num2) take both parameters being passed and return the string true if num2 is greater than num1, otherwise return the string false. If the parameter values are equal to each other then return the string -1.
      */

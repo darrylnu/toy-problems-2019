@@ -38,4 +38,15 @@ public class CoderbyteEasyTests {
         String output = CoderbyteEasy.letterCapitalize(input);
         assert(output.equals("I Like To Go Fishing."));
     }
+
+    public void simpleSymbols() {
+        String input = "+d+=3=+s+";
+        boolean output = CoderbyteEasy.simpleSymbols(input);
+        assert(output);
+
+        String input2 = "f++d+";
+        boolean output2 = CoderbyteEasy.simpleSymbols(input2);
+        assert(!output2);
+
+    }
 }
