@@ -111,6 +111,15 @@ public class CoderbyteEasy {
 
     /*Have the function CheckNums(num1,num2) take both parameters being passed and return the string true if num2 is greater than num1, otherwise return the string false. If the parameter values are equal to each other then return the string -1.
      */
+    static String checkNums(int num1, int num2) {
+        if(num2 > num1) {
+            return "true";
+        } else if(num2 == num1) {
+            return "-1";
+        } else {
+            return "false";
+        }
+    }
 
     /*Have the function TimeConvert(num) take the num parameter being passed and return the number of hours and minutes the parameter converts to (ie. if num = 63 then the output should be 1:3). Separate the number of hours and minutes with a colon.
      */

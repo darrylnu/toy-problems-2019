@@ -47,6 +47,12 @@ public class CoderbyteEasyTests {
         String input2 = "f++d+";
         boolean output2 = CoderbyteEasy.simpleSymbols(input2);
         assert(!output2);
+    }
 
+    public void checkNums() {
+        int input1 = 4;
+        int input2 = 8;
+        String output = CoderbyteEasy.checkNums(input1, input2);
+        assert(output.equals("true"));
     }
 }
