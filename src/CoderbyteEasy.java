@@ -123,6 +123,19 @@ public class CoderbyteEasy {
 
     /*Have the function TimeConvert(num) take the num parameter being passed and return the number of hours and minutes the parameter converts to (ie. if num = 63 then the output should be 1:3). Separate the number of hours and minutes with a colon.
      */
+    static String timeConvert(int num) {
+        final int oneHr = 60;
+        int hourCount = 0;
+        int leftOverMinutes = 0;
+        while(num >= oneHr) {
+            hourCount++;
+            num -= 60;
+        }
+        if(num > 0) {
+            leftOverMinutes = num;
+        }
+        return "" + hourCount + ":" + "" + leftOverMinutes;
+    }
 
     /*Have the function AlphabetSoup(str) take the str string parameter being passed and return the string with the letters in alphabetical order (ie. hello becomes ehllo). Assume numbers and punctuation symbols will not be included in the string. */
 }
