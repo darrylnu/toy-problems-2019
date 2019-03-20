@@ -26,8 +26,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/CoderbyteEasyTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="422">
-              <caret line="55" column="38" selection-start-line="55" selection-start-column="38" selection-end-line="55" selection-end-column="38" />
+            <state relative-caret-position="399">
+              <caret line="61" column="37" selection-start-line="61" selection-start-column="37" selection-end-line="61" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -44,8 +44,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CoderbyteEasy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="318">
-              <caret line="119" column="26" selection-start-line="119" selection-start-column="26" selection-end-line="119" selection-end-column="26" />
+            <state relative-caret-position="208">
+              <caret line="129" column="26" selection-start-line="129" selection-start-column="26" selection-end-line="129" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -112,7 +112,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553044632385" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553125347002" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -132,7 +132,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.CoderbyteEasyTests.checkNums">
+  <component name="RunManager" selected="TestNG.CoderbyteEasyTests.timeConvert">
     <configuration name="CoderbyteEasyTests.checkNums" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ToyProblems2019" />
       <option name="PACKAGE_NAME" value="" />
@@ -150,18 +150,6 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="CoderbyteEasyTests" />
       <option name="METHOD_NAME" value="letterCapitalize" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CoderbyteEasyTests.letterChanges" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ToyProblems2019" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CoderbyteEasyTests" />
-      <option name="METHOD_NAME" value="letterChanges" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -193,13 +181,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CoderbyteEasyTests.timeConvert" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ToyProblems2019" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CoderbyteEasyTests" />
+      <option name="METHOD_NAME" value="timeConvert" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.CoderbyteEasyTests.timeConvert" />
         <item itemvalue="TestNG.CoderbyteEasyTests.checkNums" />
         <item itemvalue="TestNG.CoderbyteEasyTests.simpleSymbols" />
         <item itemvalue="TestNG.CoderbyteEasyTests.letterCapitalize" />
         <item itemvalue="TestNG.CoderbyteEasyTests.simpleAdding" />
-        <item itemvalue="TestNG.CoderbyteEasyTests.letterChanges" />
       </list>
     </recent_temporary>
   </component>
@@ -213,14 +213,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1551569219868</updated>
-      <workItem from="1551569221157" duration="14030000" />
+      <workItem from="1551569221157" duration="14983000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CoderbyteEasyTests_letterChanges - 2019.03.05 at 23h 53m 18s.xml">
-      <configuration name="CoderbyteEasyTests.letterChanges" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="CoderbyteEasyTests_simpleAdding - 2019.03.09 at 15h 43m 17s.xml">
       <configuration name="CoderbyteEasyTests.simpleAdding" configurationId="TestNG" />
     </history-entry>
@@ -248,9 +245,12 @@
     <history-entry file="CoderbyteEasyTests_simpleSymbols - 2019.03.11 at 19h 54m 34s.xml">
       <configuration name="CoderbyteEasyTests.simpleSymbols" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="CoderbyteEasyTests_checkNums - 2019.03.19 at 20h 17m 16s.xml">
+      <configuration name="CoderbyteEasyTests.checkNums" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14030000" />
+    <option name="totallyTimeSpent" value="14983000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
@@ -342,8 +342,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/CoderbyteEasy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="119" column="26" selection-start-line="119" selection-start-column="26" selection-end-line="119" selection-end-column="26" />
+        <state relative-caret-position="208">
+          <caret line="129" column="26" selection-start-line="129" selection-start-column="26" selection-end-line="129" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -352,8 +352,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/CoderbyteEasyTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="55" column="38" selection-start-line="55" selection-start-column="38" selection-end-line="55" selection-end-column="38" />
+        <state relative-caret-position="399">
+          <caret line="61" column="37" selection-start-line="61" selection-start-column="37" selection-end-line="61" selection-end-column="37" />
         </state>
       </provider>
     </entry>

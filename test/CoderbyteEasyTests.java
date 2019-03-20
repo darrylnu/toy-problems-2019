@@ -55,4 +55,10 @@ public class CoderbyteEasyTests {
         String output = CoderbyteEasy.checkNums(input1, input2);
         assert(output.equals("true"));
     }
+
+    public void timeConvert() {
+        int input = 123;
+        String output = CoderbyteEasy.timeConvert(input);
+        assert(output.equals("2:3"));
+    }
 }
