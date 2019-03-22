@@ -61,4 +61,10 @@ public class CoderbyteEasyTests {
         String output = CoderbyteEasy.timeConvert(input);
         assert(output.equals("2:3"));
     }
+
+    public void alphabetSoup() {
+        String input = "hello";
+        String output = CoderbyteEasy.alphabetSoup(input);
+        assert(output.equals("ehllo"));
+    }
 }
