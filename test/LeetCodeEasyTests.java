@@ -9,4 +9,10 @@ public class LeetCodeEasyTests {
         assert(output == -321);
     }
 
+    public void palindromeInteger() {
+        int input = 121;
+        boolean output = LeetCodeEasy.palindromeNumber(input);
+        assert(output);
+    }
+
 }
