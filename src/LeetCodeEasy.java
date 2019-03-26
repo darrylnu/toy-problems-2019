@@ -1,3 +1,5 @@
+import com.sun.tools.javac.util.StringUtils;
+
 public class LeetCodeEasy {
 
     /* Reverse Integer: Given a 32-bit signed integer, reverse digits of an integer.
@@ -32,6 +34,17 @@ Example 1:
 
 Input: 121
 Output: true*/
+    static boolean palindromeNumber(int num) {
+        String numAsStr = Integer.toString(num);
+        StringBuilder reversedStr = new StringBuilder();
+        for(int i = numAsStr.length() - 1; i >= 0; i--) {
+            reversedStr.append(numAsStr.charAt(i));
+        }
+        if(reversedStr.toString().equals(numAsStr)) {
+            return true;
+        }
+        return false;
+    }
 
 
     /*Write a function to find the longest common prefix string amongst an array of strings.
