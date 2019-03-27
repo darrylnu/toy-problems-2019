@@ -15,4 +15,10 @@ public class LeetCodeEasyTests {
         assert(output);
     }
 
+    public void commonPrefix() {
+        String[] input = {"flight", "flag", "flee"};
+        String output = LeetCodeEasy.commonPrefix(input);
+        assert(output.equals("fl"));
+    }
+
 }
