@@ -56,6 +56,30 @@ Example 1:
 Input: ["flower","flow","flight"]
 Output: "fl"
 */
+    static String commonPrefix(String[] strings) {
+        boolean lettersMatch = true;
+        StringBuilder sb = new StringBuilder();
+        for(int i = 0; i < strings[0].length();i++) {
+            char currentCharacter = strings[0].charAt(i);
+            for(int j = 1; j < strings.length;j++) {
+                try {
+                    if(currentCharacter != strings[j].charAt(i)) {
+                        lettersMatch = false;
+                        break;
+                    }
+                } catch (Exception e) {
+                    lettersMatch = false;
+                    break;
+                }
+            }
+            if(lettersMatch) {
+                sb.append(currentCharacter);
+            } else {
+                break;
+            }
+        }
+        return sb.toString();
+    }
 
     /*Valid Parenthenses - Given a string containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
 
