@@ -21,4 +21,11 @@ public class LeetCodeEasyTests {
         assert(output.equals("fl"));
     }
 
+    public void validParentheses() {
+        String input = "[{}]";
+        boolean output = LeetCodeEasy.validParentheses(input);
+        assert(output);
+
+    }
+
 }
