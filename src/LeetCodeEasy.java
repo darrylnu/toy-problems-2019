@@ -1,5 +1,7 @@
 import com.sun.tools.javac.util.StringUtils;
 
+import java.util.Stack;
+
 public class LeetCodeEasy {
 
     /* Reverse Integer: Given a 32-bit signed integer, reverse digits of an integer.
@@ -93,6 +95,25 @@ Example 1:
 
 Input: "()"
 Output: true*/
+
+    static boolean validParentheses(String str) {
+        if(str.equals("")) return true;
+        Stack<String> letterStack = new Stack<>();
+        for(int i = 0; i < str.length(); i++) {
+            if( i == 0) {
+                letterStack.push(Character.toString(str.charAt(i)));
+            } else if(letterStack.lastElement().equals("{") && Character.toString(str.charAt(i)).equals("}")) {
+                letterStack.pop();
+            } else if(letterStack.lastElement().equals("(") && Character.toString(str.charAt(i)).equals(")")) {
+                letterStack.pop();
+            } else if(letterStack.lastElement().equals("[") && Character.toString(str.charAt(i)).equals("]")) {
+                letterStack.pop();
+            } else {
+                letterStack.push(Character.toString(str.charAt(i)));
+            }
+        }
+        return letterStack.isEmpty() ? true : false;
+    }
 
     /*Merge Two Sorted Lists - Merge two sorted linked lists and return it as a new list. The new list should be made by splicing together the nodes of the first two lists.
 
