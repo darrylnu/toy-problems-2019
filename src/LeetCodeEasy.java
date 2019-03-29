@@ -1,5 +1,7 @@
+import HelperObjects.ListNode;
 import com.sun.tools.javac.util.StringUtils;
 
+import java.util.LinkedList;
 import java.util.Stack;
 
 public class LeetCodeEasy {
@@ -121,4 +123,52 @@ Example:
 
 Input: 1->2->4, 1->3->4
 Output: 1->1->2->3->4->4*/
+    static ListNode mergeTwoLinkedLists(ListNode node1, ListNode node2) {
+        if(node1 == null) {
+            return node2;
+        }
+        if(node2 == null) {
+            return node1;
+        }
+        ListNode result = null;
+        ListNode head = null;
+        ListNode currentNode;
+        while(node1 != null && node2 != null) {
+            if(node1.val < node2.val) {
+                currentNode = new ListNode(node1.val);
+                node1 = node1.next;
+            } else if(node2.val < node1.val) {
+                currentNode = new ListNode(node2.val);
+                node2 = node2.next;
+            } else {
+                currentNode = new ListNode(node1.val);
+                currentNode.next = new ListNode(node2.val);
+                node1 = node1.next;
+                node2 = node2.next;
+            }
+            if(head == null) {
+                result = currentNode;
+                head = result;
+            } else {
+                ListNode currentResultTail = result;
+                while (result.next != null) {
+                    currentResultTail = result.next;
+                    result = result.next;
+                }
+                currentResultTail.next = new ListNode(currentNode.val);
+                result = currentResultTail.next;
+            }
+        }
+        while(node1 != null) {
+            result.next = new ListNode(node1.val);
+            result = result.next;
+            node1 = node1.next;
+        }
+        while(node2 != null) {
+            result.next = new ListNode(node2.val);
+            result = result.next;
+            node2 = node2.next;
+        }
+        return head;
+    }
 }
