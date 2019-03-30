@@ -43,10 +43,12 @@ public class LeetCodeEasyTests {
         assert(output.next.next.next.val == 3);
         assert(output.next.next.next.next.val == 4);
         assert(output.next.next.next.next.next.val == 5);
+    }
 
-
-
-
+    public void removeDuplicates() {
+        int[] input = {1,1,1,2,2,4,4,5};
+        int output = LeetCodeEasy.removeDuplicates(input);
+        assert(output == 4);
     }
 
 }
