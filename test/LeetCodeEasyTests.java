@@ -51,4 +51,11 @@ public class LeetCodeEasyTests {
         assert(output == 4);
     }
 
+    public void removeElement() {
+        int[] input = {1,3,4,1,6,7,1,5};
+        int output = LeetCodeEasy.removeElement(input, 1);
+        assert(output == 5);
+
+    }
+
 }
