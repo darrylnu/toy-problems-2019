@@ -1,7 +1,6 @@
 import HelperObjects.ListNode;
 import com.sun.tools.javac.util.StringUtils;
 
-import java.util.LinkedList;
 import java.util.Stack;
 
 public class LeetCodeEasy {
@@ -215,13 +214,35 @@ It doesn't matter what you leave beyond the returned length.*/
 
     static int removeElement(int[] nums, int val) {
         if(nums.length == 0) return 0;
-        int i = 0;
+        int b = 0;
         for (int j = 0; j < nums.length; j++) {
             if (nums[j] != val) {
-                nums[i] = nums[j];
-                i++;
+                nums[b] = nums[j];
+                b++;
             }
         }
-        return i;
+        return b;
+    }
+
+    /*Implement strStr().
+
+Return the index of the first occurrence of needle in haystack, or -1 if needle is not part of haystack.
+
+Example 1:
+
+Input: haystack = "hello", needle = "ll"
+Output: 2
+Example 2:
+
+Input: haystack = "aaaaa", needle = "bba"
+Output: -1*/
+    static int strStr(String haystack, String needle) {
+        if(!haystack.contains(needle)) {
+            return -1;
+        }
+        if(haystack.isEmpty()) {
+            return 0;
+        }
+        return StringUtils.indexOfIgnoreCase(haystack, needle);
     }
 }

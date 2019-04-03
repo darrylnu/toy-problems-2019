@@ -55,7 +55,12 @@ public class LeetCodeEasyTests {
         int[] input = {1,3,4,1,6,7,1,5};
         int output = LeetCodeEasy.removeElement(input, 1);
         assert(output == 5);
+    }
 
+    public void strStr() {
+        String[] input = {"hello", "ll"};
+        int output = LeetCodeEasy.strStr(input[0], input[1]);
+        assert(output == 2);
     }
 
 }
