@@ -245,4 +245,81 @@ Output: -1*/
         }
         return StringUtils.indexOfIgnoreCase(haystack, needle);
     }
+
+    /*Given a sorted array and a target value, return the index if the target is found. If not, return the index where it would be if it were inserted in order.
+
+You may assume no duplicates in the array.
+
+Example 1:
+
+Input: [1,3,5,6], 5
+Output: 2
+Example 2:
+
+Input: [1,3,5,6], 2
+Output: 1
+Example 3:
+
+Input: [1,3,5,6], 7
+Output: 4*/
+    static int searchInsertPosition(int[] sortedIntArray, int num) {
+        for(int i = 0; i < sortedIntArray.length; i++) {
+            if(sortedIntArray[i] == num) {
+                return i;
+            }
+            if(i < sortedIntArray.length - 1 && num > sortedIntArray[i] && num < sortedIntArray[i + 1]) {
+                return i + 1;
+            }
+        }
+        return sortedIntArray.length;
+    }
+
+    /*The count-and-say sequence is the sequence of integers with the first five terms as following:
+
+1.     1
+2.     11
+3.     21
+4.     1211
+5.     111221
+1 is read off as "one 1" or 11.
+11 is read off as "two 1s" or 21.
+21 is read off as "one 2, then one 1" or 1211.
+
+Given an integer n where 1 ≤ n ≤ 30, generate the nth term of the count-and-say sequence.
+
+Note: Each term of the sequence of integers will be represented as a string.
+
+
+
+Example 1:
+
+Input: 1
+Output: "1"
+Example 2:
+
+Input: 4
+Output: "1211"*/
+
+    /*Maximum SubArray - Given an integer array nums, find the contiguous subarray (containing at least one number)
+    which has the largest sum and return its sum.
+
+Example:
+
+Input: [-2,1,-3,4,-1,2,1,-5,4],
+Output: 6
+Explanation: [4,-1,2,1] has the largest sum = 6.*/
+
+    /*Length of Last Word - Given a string s consists of upper/lower-case alphabets and empty space characters ' ',
+    return the length of
+    last word in the string.
+
+If the last word does not exist, return 0.
+
+Note: A word is defined as a character sequence consists of non-space characters only.
+
+Example:
+
+Input: "Hello World"
+Output: 5
+*/
 }
