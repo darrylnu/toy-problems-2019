@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="bdc4a8d5-c953-4cef-9d6e-91e2fde5001e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/src/LeetCodeEasy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCodeEasy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/LeetCodeEasyTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/LeetCodeEasyTests.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,8 +26,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="6" column="41" lean-forward="true" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
+            <state relative-caret-position="207">
+              <caret line="7" column="41" lean-forward="true" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -46,10 +47,23 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/LeetCodeEasy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
-              <caret line="241" column="11" selection-start-line="241" selection-start-column="11" selection-end-line="241" selection-end-column="11" />
+            <state relative-caret-position="155">
+              <caret line="318" lean-forward="true" selection-start-line="318" selection-end-line="318" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/lib/tools.jar!/com/sun/tools/javac/util/StringUtils.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="262">
+              <caret line="29" column="40" lean-forward="true" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
+              <folding>
+                <element signature="e#564#565#0" expanded="true" />
+                <element signature="e#619#620#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -76,8 +90,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/LeetCodeEasyTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="56" column="28" selection-start-line="56" selection-start-column="28" selection-end-line="56" selection-end-column="28" />
+            <state relative-caret-position="261">
+              <caret line="69" column="5" lean-forward="true" selection-start-line="69" selection-start-column="5" selection-end-line="69" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -127,8 +141,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="23" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="199" />
+    <option name="y" value="-947" />
     <option name="width" value="1440" />
     <option name="height" value="877" />
   </component>
@@ -175,7 +190,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554261202794" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554335364302" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -195,7 +210,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.LeetCodeEasyTests.strStr">
+  <component name="RunManager" selected="TestNG.LeetCodeEasyTests.searchInsertPosition">
     <configuration name="LeetCodeEasyTests.mergeTwoLinkedLists" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ToyProblems2019" />
       <option name="PACKAGE_NAME" value="" />
@@ -232,6 +247,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LeetCodeEasyTests.searchInsertPosition" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ToyProblems2019" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LeetCodeEasyTests" />
+      <option name="METHOD_NAME" value="searchInsertPosition" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LeetCodeEasyTests.strStr" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ToyProblems2019" />
       <option name="PACKAGE_NAME" value="" />
@@ -244,25 +271,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LeetCodeEasyTests.validParentheses" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ToyProblems2019" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LeetCodeEasyTests" />
-      <option name="METHOD_NAME" value="validParentheses" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.LeetCodeEasyTests.searchInsertPosition" />
         <item itemvalue="TestNG.LeetCodeEasyTests.strStr" />
         <item itemvalue="TestNG.LeetCodeEasyTests.removeElement" />
         <item itemvalue="TestNG.LeetCodeEasyTests.removeDuplicates" />
         <item itemvalue="TestNG.LeetCodeEasyTests.mergeTwoLinkedLists" />
-        <item itemvalue="TestNG.LeetCodeEasyTests.validParentheses" />
       </list>
     </recent_temporary>
   </component>
@@ -276,32 +291,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1551569219868</updated>
-      <workItem from="1551569221157" duration="39988000" />
+      <workItem from="1551569221157" duration="41666000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LeetCodeEasyTests_mergeTwoLinkedLists - 2019.03.28 at 23h 33m 00s.xml">
-      <configuration name="LeetCodeEasyTests.mergeTwoLinkedLists" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LeetCodeEasyTests_mergeTwoLinkedLists - 2019.03.28 at 23h 43m 32s.xml">
-      <configuration name="LeetCodeEasyTests.mergeTwoLinkedLists" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LeetCodeEasyTests_mergeTwoLinkedLists - 2019.03.28 at 23h 47m 30s.xml">
-      <configuration name="LeetCodeEasyTests.mergeTwoLinkedLists" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LeetCodeEasyTests_mergeTwoLinkedLists - 2019.03.28 at 23h 48m 41s.xml">
-      <configuration name="LeetCodeEasyTests.mergeTwoLinkedLists" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LeetCodeEasyTests_mergeTwoLinkedLists - 2019.03.28 at 23h 49m 28s.xml">
-      <configuration name="LeetCodeEasyTests.mergeTwoLinkedLists" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LeetCodeEasyTests_mergeTwoLinkedLists - 2019.03.28 at 23h 51m 18s.xml">
-      <configuration name="LeetCodeEasyTests.mergeTwoLinkedLists" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LeetCodeEasyTests_mergeTwoLinkedLists - 2019.03.28 at 23h 55m 05s.xml">
-      <configuration name="LeetCodeEasyTests.mergeTwoLinkedLists" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="LeetCodeEasyTests_mergeTwoLinkedLists - 2019.03.28 at 23h 55m 17s.xml">
       <configuration name="LeetCodeEasyTests.mergeTwoLinkedLists" configurationId="TestNG" />
     </history-entry>
@@ -311,12 +305,33 @@
     <history-entry file="LeetCodeEasyTests_removeElement - 2019.04.01 at 23h 08m 49s.xml">
       <configuration name="LeetCodeEasyTests.removeElement" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="LeetCodeEasyTests_strStr - 2019.04.02 at 22h 13m 28s.xml">
+      <configuration name="LeetCodeEasyTests.strStr" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LeetCodeEasyTests_searchInsertPosition - 2019.04.03 at 18h 46m 02s.xml">
+      <configuration name="LeetCodeEasyTests.searchInsertPosition" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LeetCodeEasyTests_searchInsertPosition - 2019.04.03 at 18h 46m 20s.xml">
+      <configuration name="LeetCodeEasyTests.searchInsertPosition" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LeetCodeEasyTests_searchInsertPosition - 2019.04.03 at 18h 46m 35s.xml">
+      <configuration name="LeetCodeEasyTests.searchInsertPosition" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LeetCodeEasyTests_searchInsertPosition - 2019.04.03 at 18h 46m 44s.xml">
+      <configuration name="LeetCodeEasyTests.searchInsertPosition" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LeetCodeEasyTests_searchInsertPosition - 2019.04.03 at 18h 46m 58s.xml">
+      <configuration name="LeetCodeEasyTests.searchInsertPosition" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LeetCodeEasyTests_searchInsertPosition - 2019.04.03 at 18h 47m 13s.xml">
+      <configuration name="LeetCodeEasyTests.searchInsertPosition" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39988000" />
+    <option name="totallyTimeSpent" value="41666000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="877" extended-state="6" />
+    <frame x="199" y="-947" width="1440" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
@@ -325,7 +340,7 @@
       <window_info id="Favorites" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Messages" weight="0.32899868" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" weight="0.32899868" />
@@ -368,37 +383,37 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/LeetCodeEasy.java</url>
-          <line>11</line>
+          <line>12</line>
           <properties />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/LeetCodeEasy.java</url>
-          <line>18</line>
+          <line>19</line>
           <properties />
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/LeetCodeEasy.java</url>
-          <line>63</line>
+          <line>64</line>
           <properties />
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/LeetCodeEasy.java</url>
-          <line>99</line>
+          <line>100</line>
           <properties />
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/LeetCodeEasy.java</url>
-          <line>160</line>
+          <line>161</line>
           <properties />
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/LeetCodeEasy.java</url>
-          <line>134</line>
+          <line>135</line>
           <properties />
           <option name="timeStamp" value="9" />
         </line-breakpoint>
@@ -457,8 +472,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="6" column="41" lean-forward="true" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
+        <state relative-caret-position="207">
+          <caret line="7" column="41" lean-forward="true" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
         </state>
       </provider>
     </entry>
@@ -535,10 +550,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/lib/tools.jar!/com/sun/tools/javac/util/StringUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="29" column="40" lean-forward="true" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
+          <folding>
+            <element signature="e#564#565#0" expanded="true" />
+            <element signature="e#619#620#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/LeetCodeEasyTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="56" column="28" selection-start-line="56" selection-start-column="28" selection-end-line="56" selection-end-column="28" />
+        <state relative-caret-position="261">
+          <caret line="69" column="5" lean-forward="true" selection-start-line="69" selection-start-column="5" selection-end-line="69" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -547,8 +573,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LeetCodeEasy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="241" column="11" selection-start-line="241" selection-start-column="11" selection-end-line="241" selection-end-column="11" />
+        <state relative-caret-position="155">
+          <caret line="318" lean-forward="true" selection-start-line="318" selection-end-line="318" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -63,4 +63,10 @@ public class LeetCodeEasyTests {
         assert(output == 2);
     }
 
+    public void searchInsertPosition() {
+        int[] inputArray = {1,2,4,6,7};
+        int output = LeetCodeEasy.searchInsertPosition(inputArray, 3);
+        assert(output == 2);
+    }
+
 }
