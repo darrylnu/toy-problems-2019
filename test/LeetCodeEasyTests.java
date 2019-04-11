@@ -69,4 +69,19 @@ public class LeetCodeEasyTests {
         assert(output == 2);
     }
 
+    public void lengthOfLastWord() {
+        String input = "Hello World";
+        int output = LeetCodeEasy.lengthOfLastWord(input);
+        assert(output == 5);
+    }
+
+    public void plusOne() {
+        int[] input = {4,3,2,1};
+        int[] output = LeetCodeEasy.plusOne(input);
+        assert(output[0] == 4);
+        assert(output[1] == 3);
+        assert(output[2] == 2);
+        assert(output[3] == 2);
+    }
+
 }
