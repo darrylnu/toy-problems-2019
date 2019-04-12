@@ -1,7 +1,9 @@
 import HelperObjects.ListNode;
 import com.sun.tools.javac.util.StringUtils;
 
+import java.util.ArrayList;
 import java.util.Collections;
+import java.util.List;
 import java.util.Stack;
 
 public class LeetCodeEasy {
@@ -379,4 +381,28 @@ Example 2:
 
 Input: a = "1010", b = "1011"
 Output: "10101"*/
+    static String addBinaryNums(String num1, String num2) {
+        String[] num1Arr = num1.split("");
+        String[] num2Arr = num2.split("");
+        boolean carry = false;
+        List<String> sumList = new ArrayList<>();
+        int index = 1;
+//        while(num1Arr[i] != null && num2Arr[i] != null)
+        return "";
+    }
+
+    /*Implement int sqrt(int x).
+
+Compute and return the square root of x, where x is guaranteed to be a non-negative integer.
+
+Since the return type is an integer, the decimal digits are truncated and only the integer part of the result is returned.
+
+Example 1:
+
+Input: 4
+Output: 2*/
+    static int sqrt(int num) {
+        int sqrt = (int) Math.sqrt(num);
+        return sqrt;
+    }
 }

@@ -84,4 +84,10 @@ public class LeetCodeEasyTests {
         assert(output[3] == 2);
     }
 
+    public void sqrt() {
+        int input = 8;
+        int output = LeetCodeEasy.sqrt(input);
+        assert(output == 2);
+    }
+
 }
